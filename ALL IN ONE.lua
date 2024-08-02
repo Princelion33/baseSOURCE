@@ -3,18 +3,23 @@ local library = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com
 local w1 = library:Window("LT2Hub") -- Text
 
 w1:Button(
-    "ButterHub (PC)",
+    "ButterHub Base",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("")
     end
 ) 
 
 w1:Button(
-    "ButterHub (Mobile)",
+    "ButterHub (Mobile) First execute BetterHub Base",
     function()
-    --Butter Moblie
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("") --Butter Hub
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/toggle%20button'))("") --Button toggle
+    end
+) 
+
+w1:Button(
+    "Keyboard",
+    function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Keyboard'))("")
     end
 ) 
 
